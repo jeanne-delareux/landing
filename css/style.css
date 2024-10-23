@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/cards.css");
+
+
+body {
+	background-color: #FAF3E0;
+	font-family: "Lato";
+	margin:0px;
+	color: #A0522D;
+}
+
+
+h2 {
+	font-family: "Playfair Display";
+	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn-white{
+	color: #A0522D;
+	background-color: white;
+	padding : 15px 20px;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+
+.btn-white:hover {
+	background-color: #FAF3E0;
+}
+
+
+#middle-box {
+	margin:120px auto;
+}
+
+#end-box {
+	margin-bottom: 350px;
+}
